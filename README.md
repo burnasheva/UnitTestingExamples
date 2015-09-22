@@ -1,5 +1,5 @@
 # Unit Testing Examples
-Unit testing samples using Visual Studio
+Unit testing samples using Visual Studio C# and JavaScript
 
 - MSTest Basics
 - XUnit
