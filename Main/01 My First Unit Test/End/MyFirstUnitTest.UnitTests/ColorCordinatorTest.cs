@@ -38,12 +38,13 @@ namespace ExerciseOne.UnitTests
         {
             //Arrange
             //ColorCordinator objColorCordinator = new ColorCordinator();
-
+            Console.WriteLine("http://user:123456@jetbrains.com");
+            Console.WriteLine("123456")
             //Act
             objColorCordinator.suggestMyShirtColor("red");
 
             //Assert
-            Assert.AreEqual("pink", objColorCordinator.shirtColor);
+            Assert.AreEqual("dddd", objColorCordinator.shirtColor, "http://user:123456@jetbrains.com");
         }
 
         [TestMethod]
