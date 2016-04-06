@@ -39,7 +39,7 @@ namespace ExerciseOne.UnitTests
             //Arrange
             //ColorCordinator objColorCordinator = new ColorCordinator();
             Console.WriteLine("http://user:123456@jetbrains.com");
-            Console.WriteLine("123456")
+            Console.WriteLine("123456");
             //Act
             objColorCordinator.suggestMyShirtColor("red");
 
