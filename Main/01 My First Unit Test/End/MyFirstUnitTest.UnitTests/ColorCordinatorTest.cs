@@ -1,8 +1,9 @@
-﻿using System;
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using ExerciseOne.Code;
 using System.Diagnostics.CodeAnalysis;
+using System.Threading;
 
 namespace ExerciseOne.UnitTests
 {
@@ -23,6 +24,7 @@ namespace ExerciseOne.UnitTests
         public void TestCleanup()
         {
             objColorCordinator = null;
+            Thread.Sleep(10000);
         }
 
         //[TestCategory("Unit Test")]
